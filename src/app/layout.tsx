@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Ericks Barber Studio',
     images: [
       {
-        url: '/logo.jpg', // Full URL important!
+        url: 'https://ericksbarberstudio.com/logo.jpg', // Full URL important!
         width: 1200,
         height: 630,
         alt: 'Ericks Barber Studio',
