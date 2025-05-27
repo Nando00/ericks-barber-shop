@@ -114,7 +114,7 @@ export default function Footer() {
                 <div className="text-gray-600">
                   <p>Mon-Fri: 8am - 7pm</p>
                   <p>Sat: 8am - 6pm</p>
-                  <p>Call for appointment</p>
+                  <p>Sun: Call for appointment</p>
                 </div>
               </li>
             </ul>
