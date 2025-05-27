@@ -53,7 +53,7 @@ export default async function Home() {
     },
     {
       title: "Men's Enhancement",
-      price: "Variable",
+      price: "$10-$15",
       duration: "20 min", 
       description: "Color services - Beard ($10), Hair ($10), Beard/Hair combo ($15)"
     },
