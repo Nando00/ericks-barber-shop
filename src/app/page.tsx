@@ -45,7 +45,12 @@ export default async function Home() {
       duration: "45 min",
       description: "Complete grooming package for hair and beard with dye",
     },
-
+    {
+      title: "Men's Haircut",
+      price: "$45",
+      duration: "45 min",
+      description: "Men's regular haircut ",
+    },
     {
       title: "Kids Haircut",
       price: "$35",
