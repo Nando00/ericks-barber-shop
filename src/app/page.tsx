@@ -22,40 +22,40 @@ export default async function Home() {
   // Services data
   const services = [
     {
-      title: "Child Hair Cut",
+      title: "Child Hair Cut (9 yrs & under)",
       price: "$25",
       duration: "20 min",
       description: "Regular hair cut and line up (no shaver, no razor)"
     },
     {
-      title: "Child Hair Cut (9 yrs & up)",
+      title: "Child Hair Cut (9 yrs & under)",
       price: "$35", 
       duration: "25 min",
       description: "Razor line up and shaved fade"
     },
     {
-      title: "Hair Cut (10 years up)",
+      title: "Hair Cut (10 years & up)",
       price: "$45",
       duration: "30 min", 
       description: "Razor line up, eyebrows shape up, and shaved fade"
     },
     {
-      title: "Men's Haircut",
+      title: "Men's Haircut & Beard",
       price: "$55",
       duration: "35 min",
       description: "Full service with razor line up, eyebrows shape up, shaved fade, beard line up, nose hair and ear hair trim"
+    },
+    {
+      title: "Men's Haircut & Beard with Enhancements",
+      price: "$65",
+      duration: "45 min",
+      description: "Full service with razor line up, eyebrows shape up, shaved fade, beard line up, nose hair and ear hair trim, and enhancements"
     },
     {
       title: "Men's Haircut/Shave",
       price: "$30",
       duration: "20 min",
       description: "Simple haircut or shaved head with beard shave or beard line up"
-    },
-    {
-      title: "Men's Enhancement",
-      price: "$10-$15",
-      duration: "20 min", 
-      description: "Color services - Beard ($10), Hair ($10), Beard/Hair combo ($15)"
     },
     {
       title: "Beard Line Up/Edge Up", 
