@@ -21,42 +21,56 @@ export default async function Home() {
 
   // Services data
   const services = [
-    {
-      title: "Classic Haircut",
-      price: "$30",
-      duration: "30 min",
-      description: "Traditional haircut with clippers, scissors, and line up",
-    },
-    {
-      title: "Beard Line Up / Shave with Hot Towel",
-      price: "$30",
-      duration: "20 min",
-      description: "Beard line up with hot towel and straight razor shave",
-    },
-    {
-      title: "Haircut & Beard",
-      price: "$50",
-      duration: "35 min",
-      description: "Grooming package for hair and beard",
-    },
-    {
-      title: "Haircut & Beard & Enhancements",
-      price: "$60",
-      duration: "45 min",
-      description: "Complete grooming package for hair and beard with dye",
-    },
-    {
-      title: "Men's Haircut",
-      price: "$45",
-      duration: "35 min",
-      description: "Men's regular haircut",
-    },
-    {
-      title: "Kids Haircut",
-      price: "$35",
-      duration: "30 min",
-      description: "Haircuts for children 9 and under",
-    },
+    [
+      {
+        "title": "Child Hair Cut",
+        "price": "$25",
+        "duration": "20 min",
+        "description": "Regular hair cut and line up (no shaver, no razor)"
+      },
+      {
+        "title": "Child Hair Cut (9 yrs & up)",
+        "price": "$35", 
+        "duration": "25 min",
+        "description": "Razor line up and shaved fade"
+      },
+      {
+        "title": "Hair Cut (10 years up)",
+        "price": "$45",
+        "duration": "30 min", 
+        "description": "Razor line up, eyebrows shape up, and shaved fade"
+      },
+      {
+        "title": "Men's Haircut",
+        "price": "$55",
+        "duration": "35 min",
+        "description": "Full service with razor line up, eyebrows shape up, shaved fade, beard line up, nose hair and ear hair trim"
+      },
+      {
+        "title": "Men's Haircut/Shave",
+        "price": "$30",
+        "duration": "20 min",
+        "description": "Simple haircut or shaved head with beard shave or beard line up"
+      },
+      {
+        "title": "Men's Enhancement",
+        "price": "Variable",
+        "duration": "20 min", 
+        "description": "Color services - Beard ($10), Hair ($10), Beard/Hair combo ($15)"
+      },
+      {
+        "title": "Beard Line Up/Edge Up", 
+        "price": "$20",
+        "duration": "10 min",
+        "description": "Eyebrows, light fade in back, and line up"
+      },
+      {
+        "title": "Eyebrows",
+        "price": "$5",
+        "duration": "5 min", 
+        "description": "Lined up, waxed, or plucked"
+      }
+    ]
   ];
 
   // Gallery images
