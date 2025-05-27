@@ -48,8 +48,8 @@ export default async function Home() {
     {
       title: "Men's Haircut",
       price: "$45",
-      duration: "45 min",
-      description: "Men's regular haircut ",
+      duration: "35 min",
+      description: "Men's regular haircut",
     },
     {
       title: "Kids Haircut",
