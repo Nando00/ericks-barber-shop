@@ -23,39 +23,34 @@ export default async function Home() {
   const services = [
     {
       title: "Classic Haircut",
-      price: "$25",
-      duration: "30 min",
-      description: "Traditional haircut with clippers and scissors",
-    },
-    {
-      title: "Beard Trim",
-      price: "$15",
-      duration: "15 min",
-      description: "Shape and trim your beard to perfection",
-    },
-    {
-      title: "Hot Towel Shave",
-      price: "$35",
-      duration: "45 min",
-      description: "Relaxing hot towel treatment with straight razor shave",
-    },
-    {
-      title: "Haircut & Beard Combo",
-      price: "$40",
-      duration: "45 min",
-      description: "Complete grooming package for hair and beard",
-    },
-    {
-      title: "Kids Haircut",
-      price: "$20",
-      duration: "20 min",
-      description: "Haircuts for children under 12",
-    },
-    {
-      title: "Hair Styling",
       price: "$30",
       duration: "30 min",
-      description: "Styling with premium products for any occasion",
+      description: "Traditional haircut with clippers, scissors, and line up",
+    },
+    {
+      title: "Beard Line Up / Shave with Hot Towel",
+      price: "$30",
+      duration: "20 min",
+      description: "Beard line up with hot towel and straight razor shave",
+    },
+    {
+      title: "Haircut & Beard",
+      price: "$50",
+      duration: "35 min",
+      description: "Grooming package for hair and beard",
+    },
+    {
+      title: "Haircut & Beard & Enhancements",
+      price: "$60",
+      duration: "45 min",
+      description: "Complete grooming package for hair and beard with dye",
+    },
+
+    {
+      title: "Kids Haircut",
+      price: "$35",
+      duration: "30 min",
+      description: "Haircuts for children 9 and under",
     },
   ];
 

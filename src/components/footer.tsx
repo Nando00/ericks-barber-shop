@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* About Column */}
           <div className="md:col-span-1">
-            <h3 className="font-semibold text-gray-900 mb-4">Premium Cuts</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">Erick's Barber Shop</h3>
             <p className="text-gray-600 mb-4">
               Professional barber services with a focus on quality, style, and
               customer satisfaction.
@@ -91,11 +91,6 @@ export default function Footer() {
                   Promotions
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600">
-                  Gift Cards
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -106,19 +101,20 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-blue-600 mr-2 mt-0.5" />
                 <span className="text-gray-600">
-                  123 Main Street, Anytown, ST 12345
+                  5129 Aldine Mail Route Rd, Unit 77039, Houston, TX 77039,
+                  United States
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-gray-600">(555) 123-4567</span>
+                <span className="text-gray-600">(832) 208-0757</span>
               </li>
               <li className="flex items-start">
                 <Clock className="w-5 h-5 text-blue-600 mr-2 mt-0.5" />
                 <div className="text-gray-600">
-                  <p>Mon-Fri: 9am - 8pm</p>
-                  <p>Sat: 9am - 6pm</p>
-                  <p>Sun: 10am - 4pm</p>
+                  <p>Mon-Fri: 8am - 7pm</p>
+                  <p>Sat: 8am - 6pm</p>
+                  <p>Call for appointment</p>
                 </div>
               </li>
             </ul>
@@ -127,7 +123,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-200">
           <div className="text-gray-600 mb-4 md:mb-0">
-            © {currentYear} Premium Cuts Barber Shop. All rights reserved.
+            © {currentYear} Erick's Barber Shop. All rights reserved.
           </div>
 
           <div className="flex space-x-6">
